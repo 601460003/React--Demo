@@ -7,7 +7,8 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 
-{/*<div /> 会被编译成 React.createElement('div')*/}
+//
+// <div /> 会被编译成 React.createElement('div')
 ReactDOM.render(<App />, document.getElementById('root'));
 serviceWorker.unregister();
 
